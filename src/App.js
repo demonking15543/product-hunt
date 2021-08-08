@@ -30,7 +30,7 @@ function App() {
     <div className="container">
     <Header/>
     <div className="row">
-      <div className="col-4 text-center">
+      <div className="col-12  col-md-4 text-center">
         <div className="card">
           <div className="card-header">Add Todo</div>
           <div className="card-body">
@@ -40,7 +40,7 @@ function App() {
         </div>
 
       </div>
-      <div className="col-8">
+      <div className="col-12 col-md-8">
           <TodoList todoList={todoList} handleToggle={handleToggle} handleFilter={handleFilter} />
 
 
